@@ -57,11 +57,22 @@ OPENAI_API_EMBEDDING_MODEL=BAAI/bge-m3
 `-- question.csv
 ```
 
+## 数据准备
+
+将赛题所需要的数据放到对应的目录下，完整的目录是这样的：
+![完整的baseline及仓库目录](images/完整的baseline及仓库目录.png)
+我们的数据集需要放到baseline目录下的datas文件夹内，注意可以直接将数据集内的文本数据文件夹直接复制到 datas 下面即可，在进阶环节你可以使用表格的数据放到 datas 下面。
+![文本部分的数据内容](images/文本部分的数据内容.png)
+
 ## 运行 baseline 的主程序
 
 确保你已经切换到 baseline 目录下，然后执行下面的命令。
 
 ```bash
-
 python main.py
 ```
+
+## 运行之后的目录结构
+
+运行之后baseline目录下会生成answer.csv文件，里面是所有问题对应的答案。
+![运行baseline的代码后的文件结构](images/运行baseline的代码后的文件结构.png)
