@@ -15,7 +15,7 @@ api_base = os.getenv("OPENAI_API_BASE")
 model = os.getenv("OPENAI_API_MODEL")
 embed_model = os.getenv("OPENAI_API_EMBEDDING_MODEL")
 
-Settings.llm = QwenLLM(api_key=api_key, base_url=api_base, model=model, temperature=0.1)
+Settings.llm = QwenLLM(api_key=api_key, base_url=api_base, model=model, temperature=0.6)
 
 Settings.embed_model = CachedRemoteEmbedding(
     api_key=api_key,
