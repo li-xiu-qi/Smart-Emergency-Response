@@ -1,0 +1,7 @@
+llama-index 
+chromadb 
+openai 
+python-dotenv 
+llama-index-vector-stores-chroma 
+docx2txt 
+notebook
